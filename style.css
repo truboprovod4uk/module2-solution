@@ -1,0 +1,97 @@
+<style>
+
+/********** Base styles **********/
+body{
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 175%;
+}
+
+h2{
+  position: absolute;
+  width:100px;
+  border: 1px solid black;
+  right:2.5%;
+  top:0;
+  text-align: center;
+  font-size: 125%;
+}
+
+#tr1{
+  background-color: #c9a7a5;
+}
+
+#tr2{
+  background-color: #b2c9a5;
+}
+
+#tr3{
+  background-color: #a5b3c9;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #baadad;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 10px  10px 10px;
+
+}
+
+div.container{
+  position: relative;
+  padding-bottom: 20px;
+
+}
+
+.row {
+  width:100%;
+}
+
+/********** Desktop version**********/
+@media (min-width: 992px) {
+  .col-desktop{
+    float: left;
+
+    width: 33.33%;
+  }
+}
+
+/********** Tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tablet-1,  .col-tablet-2  {
+    float: left;
+
+  }
+  .col-tablet-1 {
+  width: 50%;
+  }
+
+  .col-tablet-2 {
+  width: 100%;
+  }
+
+  .col-tablet-2 p{
+  width: 97.75%;
+  }
+
+  .col-tablet-2 h2{
+  right: 1.25%;
+  }
+
+}
+
+</style>
